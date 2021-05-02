@@ -1,6 +1,7 @@
 import './App.scss';
 import { COLORS } from '../../constants.js'
 import Tab from '../Tab/Tab';
+import Landing from '../Landing/Landing';
 
 function App() {
   let tabs = COLORS.map((color, idx) => {
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="spacer"></div>
+      < Landing />
       {tabs}
     </div>
   );
