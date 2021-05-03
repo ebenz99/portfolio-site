@@ -1,0 +1,21 @@
+.blob {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hobbyBlob {
+    background-color: var(--hobby);
+}
+
+.interestBlob {
+    background-color: var(--interest);
+}
+
+.moreBlob {
+    background-color: var(--more);
+}

@@ -1,25 +1,16 @@
 import './App.scss';
-import { COLORS, SECTIONS } from '../../constants.js'
-import Tab from '../Tab/Tab';
-import Landing from '../Landing/Landing';
-import { ParallaxProvider } from 'react-scroll-parallax';
+import Home from '../Home/Home';
+import About from '../About/About';
+import Books from '../Books/Books';
 
-
+import { Switch, Route } from 'react-router-dom'
 function App() {
-  let tabs = COLORS.map((color, idx) => {
-    let tabColor = 'var(--' + color + ')';
-    return <Tab key={idx} bgColor={tabColor} tabTitle={SECTIONS[idx]}/>
-  });
-
   return (
-    <div className="App">
-      < Landing />
-      <ParallaxProvider>
-        <div className="tabSection">
-          {tabs}
-        </div>
-      </ParallaxProvider>
-    </div>
+    <Switch>
+    <Route exact path='/' component={Home}/>
+      <Route exact path='/about' component={About}/>
+      <Route exact path='/books' component={Books}/>
+    </Switch>
   );
 }
 

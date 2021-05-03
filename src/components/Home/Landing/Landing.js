@@ -1,5 +1,5 @@
 import './Landing.scss';
-import bg from '../../backgrounds/home.svg'
+import bg from '../../../backgrounds/home.svg'
 
 function Landing() {
 
