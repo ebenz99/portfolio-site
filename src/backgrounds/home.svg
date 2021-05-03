@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.65;fill:#D4FF17;}
+	.st1{fill:#73BDFF;}
+	.st2{fill:none;}
+	.st3{font-family:'Helvetica-Bold';}
+	.st4{font-size:100px;}
+	.st5{font-family:'Helvetica';}
+	.st6{font-size:50px;}
+	.st7{fill:#E4FF00;}
+	.st8{fill:#82FF00;}
+	.st9{fill:#FF8BEB;}
+	.st10{fill:#00A225;}
+</style>
+<rect x="981.4" y="208.8" transform="matrix(1.029275e-02 0.9999 -0.9999 1.029275e-02 1563.1761 -576.0094)" class="st0" width="182.4" height="585.8"/>
+<rect x="201.4" y="384.7" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -385.8236 969.4512)" class="st0" width="180.9" height="585.8"/>
+<rect x="278.7" y="387.7" transform="matrix(0.8852 -0.4651 0.4651 0.8852 -116.0669 370.2619)" class="st1" width="827.2" height="65.3"/>
+<rect x="385.6" y="435.7" transform="matrix(0.8852 -0.4651 0.4651 0.8852 -126.1092 425.4854)" class="st1" width="827.2" height="65.3"/>
+<rect x="85.9" y="120.4" class="st2" width="488.9" height="180.8"/>
+<text transform="matrix(1 0 0 1 85.9008 192.257)"><tspan x="0" y="0" class="st2 st3 st4">Welcome</tspan><tspan x="0" y="60" class="st2 st5 st6">to my personal site.</tspan></text>
+<rect x="490.3" y="482.5" transform="matrix(0.8852 -0.4651 0.4651 0.8852 -135.9084 479.5573)" class="st1" width="827.2" height="65.3"/>
+<rect x="0.4" y="410.2" class="st7" width="193.3" height="177"/>
+<rect x="1169.6" y="590.9" transform="matrix(-0.9999 1.029272e-02 -1.029272e-02 -0.9999 2543.6372 1349.7996)" class="st7" width="197.5" height="181.2"/>
+<rect x="974.8" y="592.9" transform="matrix(-0.9999 1.029273e-02 -1.029273e-02 -0.9999 2151.8906 1350.8208)" class="st8" width="195.3" height="176.1"/>
+<polygon class="st9" points="779.8,515.4 977.2,411.7 834.4,412.9 779,442 "/>
+<path class="st9" d="M821.7,595.5c117.9-62,235.8-124,353.7-186.1h-139.8c-85.2,44.7-170.3,89.3-255.5,134c0.2,17.5,0.4,35,0.5,52.5
+	C794.3,595.7,808,595.6,821.7,595.5z"/>
+<polygon class="st9" points="584.7,646 584.7,719.8 552.9,736.5 522.5,678.7 "/>
+<polygon class="st9" points="584.7,617.9 448.2,689.6 417.9,631.8 499.9,588.7 584.7,588.7 "/>
+<rect x="388.5" y="410.2" class="st10" width="196.2" height="178.4"/>
+<rect x="193.8" y="410.2" class="st8" width="194.8" height="177"/>
+<polyline class="st9" points="341.3,641.6 442.2,588.7 311,583.8 "/>
+<rect x="781.5" y="594.9" transform="matrix(-0.9999 1.029279e-02 -1.029279e-02 -0.9999 1763.5991 1356.809)" class="st10" width="193.6" height="176.1"/>
+</svg>

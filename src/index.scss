@@ -6,11 +6,15 @@
   --orange: #FF9472;
   --green: #9ACD32;
   --grey:rgb(85, 85, 85);
+  --black:black;
 }
 
 @font-face {
   font-family: 'Roboto';
   src: local('Roboto'), url(fonts/Roboto-Bold.ttf) format('woff');
+}
+
+html {
 }
 
 body {
