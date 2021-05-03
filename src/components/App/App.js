@@ -2,6 +2,8 @@ import './App.scss';
 import { COLORS } from '../../constants.js'
 import Tab from '../Tab/Tab';
 import Landing from '../Landing/Landing';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 function App() {
   let tabs = COLORS.map((color, idx) => {
@@ -12,7 +14,9 @@ function App() {
   return (
     <div className="App">
       < Landing />
-      {tabs}
+      <ParallaxProvider>
+        {tabs}
+      </ParallaxProvider>
     </div>
   );
 }
