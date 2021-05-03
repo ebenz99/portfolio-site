@@ -31,7 +31,8 @@
 <polygon class="st9" points="584.7,646 584.7,719.8 552.9,736.5 522.5,678.7 "/>
 <polygon class="st9" points="584.7,617.9 448.2,689.6 417.9,631.8 499.9,588.7 584.7,588.7 "/>
 <rect x="388.5" y="410.2" class="st10" width="196.2" height="178.4"/>
-<rect x="193.8" y="410.2" class="st8" width="194.8" height="177"/>
-<polyline class="st9" points="341.3,641.6 442.2,588.7 311,583.8 "/>
+<rect x="193.8" y="410.2" class="st8" width="195.2" height="176.8"/>
 <rect x="781.5" y="594.9" transform="matrix(-0.9999 1.029279e-02 -1.029279e-02 -0.9999 1763.5991 1356.809)" class="st10" width="193.6" height="176.1"/>
+<polygon class="st9" points="312.8,587.2 442.2,588.7 341,642 "/>
+<line class="st8" x1="389" y1="587" x2="389" y2="588.1"/>
 </svg>

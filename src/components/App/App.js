@@ -15,7 +15,9 @@ function App() {
     <div className="App">
       < Landing />
       <ParallaxProvider>
-        {tabs}
+        <div className="tabSection">
+          {tabs}
+        </div>
       </ParallaxProvider>
     </div>
   );

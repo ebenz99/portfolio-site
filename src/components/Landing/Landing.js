@@ -11,7 +11,7 @@ function Landing() {
           <div className="welcomeSubtext">to my personal site.</div>
         </div>
       </div>
-      <img className="landingImage" src={bg} />
+      <img className="landingImage" alt="swiss-style initials" src={bg} />
     </div>
   );
 }
