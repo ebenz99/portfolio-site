@@ -1,5 +1,7 @@
 import './Blob.scss';
-import './keyframes.scss';
+import './keyframes/hobbyKeyframes.scss';
+import './keyframes/interestKeyframes.scss';
+import './keyframes/moreKeyframes.scss';
 
 function Blob(props) {
 const style = {'animationName': props.animationName, "position": 'relative'}

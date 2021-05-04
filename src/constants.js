@@ -4,9 +4,9 @@ const SECTIONS = ["about", "books", "music", "photos", "lichess", "github", "lin
 const LINKS = ["about", "/books", "/music", "https://ethanbensman.com", "/lichess", "https://github.com/ebenz99", "/linkedin"];
 
 
-const HOBBIES = ["Basketball", "Tennis", "Reading", "Chess", "Coding"];
-const INTERESTS = ["Swiss-style Design", "The Detroit Pistons", "Australian Drill", "Jake and Amir"];
-const MORE = ["Gibraltar"];
+const HOBBIES = ["Basketball", "Tennis", "Reading", "Chess", "Coding", "Painting", "Soccer"];
+const INTERESTS = ["Swiss-style Design", "The Detroit Pistons", "Australian Drill", "Jake and Amir","Very Bad Wizards", "Bundesliga", "FC Cincinnati", "Universal Healthcare","Amphibians","Discrete Math"];
+const MORE = ["Gibraltar", "What's that?"];
 
 module.exports = { 
     COLORS,

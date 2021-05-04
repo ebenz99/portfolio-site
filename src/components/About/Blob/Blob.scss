@@ -1,8 +1,17 @@
 .ibox {
+    //phones
+    @media only screen and (max-width: 900px) {
+        width: 70vw;
+    }
+    //laptop
+    @media only screen and (min-width: 900px) {
+        width: 80vw;
+    }
     position: absolute;
     height: 60vh;
     width: 80vw;
-    background-color: blue;
+    background-color: var(--about-box-color);
+    border-radius: 15px;
 }
 
 .blob {
@@ -17,6 +26,7 @@
     animation-iteration-count: infinite;
     z-index: 3;
     margin-top: 60vh;
+    font-family: "Roboto";
 }
 
 .hobbyBlob {
