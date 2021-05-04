@@ -12,3 +12,29 @@ em.hobbies {
 em.more {
     color: var(--more);
 }  
+
+.blobFest {
+    height: 70vh;
+    width: 90vw;
+    background-color: lightgreen;
+    margin-left: 5vw;
+}
+
+.aboutHeader {
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center
+}
+
+.aboutHeaderText {
+    display:inline-block;
+    text-align:center;
+    padding:5px 10px 5px 10px;
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+    background-color: black;
+    font-size: 3vw;
+}
+
