@@ -1,0 +1,77 @@
+.books {
+    padding-left: 5vw;
+    width: 95vw;
+    background-image: url("../../imgs/backgrounds/stalk.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-color: beige;
+
+}
+
+.bookHeadingContainer{
+    padding: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.bookHeadingText{
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+.mainBookContent {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.bookContainer {
+    //phones
+    @media only screen and (max-width: 900px) {
+        width: 250px;
+        height: 40vh;
+        margin: 1%;
+        padding: 0;
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 5%;
+    }
+    //laptop
+    @media only screen and (min-width: 900px) {
+        width: 250px;
+        height: 40vh;
+        margin: 1%;
+        padding: 0;
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 5%;
+    }
+
+}
+
+.coverImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bookTitle {
+    font-family: Roboto;
+}
+
+.coverDescription {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}

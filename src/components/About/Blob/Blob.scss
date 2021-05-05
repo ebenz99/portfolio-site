@@ -29,6 +29,20 @@
     font-family: "Roboto";
 }
 
+.blobText {
+    //phones
+    @media only screen and (max-width: 900px) {
+        font-family: "Roboto";
+        font-size: 2vh;
+    }
+    //laptops
+    @media only screen and (min-width: 900px) {
+        font-family: "Roboto";
+        max-width: 10vh;
+    }
+
+}
+
 .hobbyBlob {
     position: absolute;
     background-color: var(--hobby);

@@ -8,7 +8,10 @@ const style = {'animationName': props.animationName, "position": 'relative'}
   return (
     <div className="ibox">
       <div style={style} className={`${props.type}Blob blob`}>
+        <p className="blobText">
           {props.name}
+
+        </p>
       </div>
     </div>
   );
