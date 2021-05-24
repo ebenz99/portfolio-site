@@ -1,7 +1,7 @@
 // const COLORS = ["turquoise", "pink", "yellow", "blue", "orange", "green"];
 const COLORS = [1,2,3,4,5,6,7].map((color) => (`color${color}`));
 const SECTIONS = ["about", "books", "music", "photos", "lichess", "github", "linkedin"];
-const LINKS = ["about", "/books", "/music", "https://ethanbensman.com", "https://lichess.org/@/ebenz99", "https://github.com/ebenz99", "https://www.linkedin.com/in/ethan-bensman/"];
+const LINKS = ["/#/about", "/#/books", "/#/music", "https://ethanbensman.com", "https://lichess.org/@/ebenz99", "https://github.com/ebenz99", "https://www.linkedin.com/in/ethan-bensman/"];
 
 
 const HOBBIES = ["Basketball", "Tennis", "Reading", "Chess", "Coding", "Painting", "Soccer"];
