@@ -12,6 +12,7 @@ function Books() {
           Here are the things I liked:
         </p>
       </div>
+      <div className="bookSpacer">&nbsp;</div>
       <div className="mainBookContent">
         {
           BOOKS.reverse().map((book, idx) => {

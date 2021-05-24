@@ -4,12 +4,26 @@ function fade(){
 
 const faderCheck = () => {
     if (document.getElementsByClassName("musicHeader").length === 0) {
-        console.log("not music")
+        ;
     }
     else {
-        console.log("music")
         $(window).scroll(fade);
     }
 }
 
-setTimeout(faderCheck, 2000)
+function fade2(){
+	($(".bookHeadingText")).css("opacity", 1 - (($(document)).scrollTop()) / 100);
+}
+
+const faderCheck2 = () => {
+    if (document.getElementsByClassName("bookHeadingText").length === 0) {
+        ;
+    }
+    else {
+        console.log("here")
+        $(window).scroll(fade2);
+    }
+}
+
+setTimeout(faderCheck, 1500)
+setTimeout(faderCheck2, 1500)

@@ -16,7 +16,6 @@ class Music extends Component {
     getSongs = () => {
         fetch("https://yxsi2gve7e.execute-api.us-east-1.amazonaws.com/Prod/hello").then((res) => {
             res.text().then((songsStr) => {
-                console.log(songsStr)
                 let songsList = JSON.parse(songsStr);
                 this.setState({songs:songsList})
             })

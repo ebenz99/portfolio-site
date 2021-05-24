@@ -15,7 +15,6 @@
 .song:hover {
     background-color: rgb(81, 0, 211);
     cursor: pointer;
-
 }
 
 .albumArtContainer {
@@ -59,6 +58,7 @@
     //laptop
     @media only screen and (min-width: 700px) {
         padding-top: 4.5vh;
+        padding-bottom: 1vh;
         font-size: 3vh;
         font-family: "Gotham";
         font-weight: bold;

@@ -1,25 +1,54 @@
 .music {
     width: 100vw;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: top;
     background-color: rgb(223, 212, 253);
+    padding-bottom: 10vh;
 }
 
 .musicHeaderContainer {
-    height: 6vw;
-    padding-top: 20vh;
-    padding-left: 10vw;
-    position: fixed;
+    //phones
+    @media only screen and (max-width: 700px) {
+        width: 90%;
+        height: 40vh;
+        padding-top: 10vh;
+        padding-left: 10vw;
+        position: fixed;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        width: 90%;
+        height: 6vw;
+        padding-top: 20vh;
+        padding-left: 10vw;
+        position: fixed;
+    }
 }
 
 .musicHeader { 
-    font-family: "Gotham";
-    font-weight: bolder;
-    font-size: 10vw;
-    color: white;
-    opacity: 1;
-    position: fixed;
+    //phones
+    @media only screen and (max-width: 700px) {
+        font-family: "Gotham";
+        font-weight: bolder;
+        font-size: 13vh;
+        line-height: 13vh;
+        height: 100%;
+        color: white;
+        opacity: 1;
+        word-wrap:break-word;
+        white-space: normal;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        font-family: "Gotham";
+        font-weight: bolder;
+        font-size: 10vw;
+        color: white;
+        opacity: 1;
+        position: fixed;
+    }
 }
 
 .songContainer {

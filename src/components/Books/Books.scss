@@ -17,12 +17,26 @@
     justify-content: center;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    position: fixed;
 }
 
 .bookHeadingText{
     margin: 0;
     padding: 0;
     font-size: x-large;
+    opacity: 1;
+}
+
+.bookSpacer {
+    width: 100%;
+    //phones
+    @media only screen and (max-width: 700px) {
+        height: 35vh;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        height: 20vh;
+    }
 }
 
 .mainBookContent {

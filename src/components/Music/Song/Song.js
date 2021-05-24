@@ -8,7 +8,7 @@ function Song(props) {
                 <img className="albumArt" src={props.picUrl} alt={props.title}></img>
             </div>
             <div className="songTitleContainer">
-                <div className="songTitle">{props.title}</div>
+                <div className="songTitle">&nbsp;{props.title}</div>
             </div>
             <div className="artistContainer">
                 &nbsp;&nbsp;-&nbsp;&nbsp;{props.artist}
@@ -19,5 +19,4 @@ function Song(props) {
   );
 }
 
-{/* <div className="artistName"></div> */}
 export default Song;
