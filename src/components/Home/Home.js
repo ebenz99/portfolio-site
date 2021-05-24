@@ -13,6 +13,7 @@ function Home() {
 
   return (
     <div className="Home">
+      <div id="top"></div>
       < Landing />
       <ParallaxProvider>
         <div className="tabSection">
