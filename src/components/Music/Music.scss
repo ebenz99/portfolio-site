@@ -1,6 +1,5 @@
 .music {
     width: 100vw;
-    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -9,7 +8,7 @@
 
 .musicHeaderContainer {
     height: 6vw;
-    padding-top: 10vh;
+    padding-top: 20vh;
     padding-left: 10vw;
     position: fixed;
 }
@@ -17,7 +16,7 @@
 .musicHeader { 
     font-family: "Gotham";
     font-weight: bolder;
-    font-size: 4vw;
+    font-size: 10vw;
     color: white;
     opacity: 1;
     position: fixed;
@@ -26,9 +25,4 @@
 .songContainer {
     margin-top: 50vh;
     padding-left: 10vw;
-}
-
-.thing {
-    height: 20vh;
-    width: 95vw;
 }

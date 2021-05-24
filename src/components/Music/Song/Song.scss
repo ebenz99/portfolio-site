@@ -1,0 +1,94 @@
+.songContainer {
+    text-decoration: none;
+}
+
+.song {
+    background-color: rgb(117, 37, 245);
+    width: 80vw;
+    height: 8vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.song:hover {
+    background-color: rgb(81, 0, 211);
+    cursor: pointer;
+
+}
+
+.albumArtContainer {
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.albumArt {
+    height: 90%;
+}
+
+.songTitleContainer {
+    height: 100%;
+    //phones
+    @media only screen and (max-width: 700px) {
+        max-width: 80%;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        max-width: 80%;
+    }
+}
+
+.songTitle {
+    //phones
+    @media only screen and (max-width: 700px) {
+        padding-top: 4.35vh;
+        padding-bottom: 1vh;
+        font-size: 2vh;
+        font-family: "Gotham";
+        font-weight: bold;
+        color: white;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        padding-top: 4.5vh;
+        font-size: 3vh;
+        font-family: "Gotham";
+        font-weight: bold;
+        color: white;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.artistContainer {
+    height: 100%;
+    flex: 1;
+    //phones
+    @media only screen and (max-width: 700px) {
+        padding-top: 4.35vh;
+        font-size: 2vh;
+        font-family: "Gotham";
+        font-weight: normal;
+        color: white;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        padding-top: 4.35vh;
+        font-size: 2vh;
+        font-family: "Gotham";
+        font-weight: normal;
+        color: white;
+    }
+}
