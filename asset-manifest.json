@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de641e96.chunk.css",
+    "main.js": "/static/js/main.109966bd.chunk.js",
+    "main.js.map": "/static/js/main.109966bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
+    "static/js/2.20419bb6.chunk.js": "/static/js/2.20419bb6.chunk.js",
+    "static/js/2.20419bb6.chunk.js.map": "/static/js/2.20419bb6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.de641e96.chunk.css.map": "/static/css/main.de641e96.chunk.css.map",
+    "static/js/2.20419bb6.chunk.js.LICENSE.txt": "/static/js/2.20419bb6.chunk.js.LICENSE.txt",
+    "static/media/100YearsofSolitude.jpg": "/static/media/100YearsofSolitude.1a01bda4.jpg",
+    "static/media/21Lessonsforthe21stCentury.jpg": "/static/media/21Lessonsforthe21stCentury.91a8bb40.jpg",
+    "static/media/Beloved.jpg": "/static/media/Beloved.627dd9bc.jpg",
+    "static/media/BreakfastofChampions.jpg": "/static/media/BreakfastofChampions.63ca7c72.jpg",
+    "static/media/ChronicleofaDeathForetold.jpg": "/static/media/ChronicleofaDeathForetold.469c3d09.jpg",
+    "static/media/CrazyLikeUs.jpg": "/static/media/CrazyLikeUs.77b3db98.jpg",
+    "static/media/DebatingReligiousLibertyandDiscrimination.jpg": "/static/media/DebatingReligiousLibertyandDiscrimination.0006e7c1.jpg",
+    "static/media/index.scss": "/static/media/Roboto-Bold.4f39c579.ttf",
+    "static/media/HellistheAbsenceofGod.jpg": "/static/media/HellistheAbsenceofGod.d0d32e0f.jpg",
+    "static/media/InfiniteJest.jpg": "/static/media/InfiniteJest.0edd6fb8.jpg",
+    "static/media/PlayerPiano.jpg": "/static/media/PlayerPiano.422e0fc9.jpg",
+    "static/media/PossibleGirls.jpg": "/static/media/PossibleGirls.1f172e5d.jpg",
+    "static/media/RaceAfterTechnology.jpg": "/static/media/RaceAfterTechnology.262f3bf4.jpg",
+    "static/media/SurprisedbyGod.jpg": "/static/media/SurprisedbyGod.3b03d4c0.jpg",
+    "static/media/TheFireNextTime.jpg": "/static/media/TheFireNextTime.5a4c61d9.jpg",
+    "static/media/TheMasterandtheMargarita.jpg": "/static/media/TheMasterandtheMargarita.adb913a0.jpg",
+    "static/media/TheOuterLimitsofReason.jpg": "/static/media/TheOuterLimitsofReason.2d5b9402.jpg",
+    "static/media/TheTrial.jpg": "/static/media/TheTrial.7d06d8d7.jpg",
+    "static/media/Timequake.jpg": "/static/media/Timequake.22198528.jpg",
+    "static/media/Home.scss": "/static/media/holePunch.351ffc7c.svg",
+    "static/media/home.ee8b8e29.svg": "/static/media/home.ee8b8e29.svg",
+    "static/media/Books.scss": "/static/media/stalk.36d491d7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b83279d6.js",
+    "static/js/2.20419bb6.chunk.js",
+    "static/css/main.de641e96.chunk.css",
+    "static/js/main.109966bd.chunk.js"
+  ]
+}
