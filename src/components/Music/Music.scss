@@ -13,9 +13,9 @@
     @media only screen and (max-width: 700px) {
         width: 90%;
         height: 40vh;
-        padding-top: 10vh;
         padding-left: 10vw;
         position: fixed;
+        z-index: 3;
     }
     //laptop
     @media only screen and (min-width: 700px) {
@@ -32,12 +32,11 @@
     @media only screen and (max-width: 700px) {
         font-family: "Gotham";
         font-weight: bolder;
-        font-size: 13vh;
+        font-size: 10vh;
         line-height: 13vh;
         height: 100%;
         color: white;
         opacity: 1;
-        word-wrap:break-word;
         white-space: normal;
     }
     //laptop
@@ -51,7 +50,20 @@
     }
 }
 
-.songContainer {
-    margin-top: 50vh;
-    padding-left: 10vw;
+.songsContainer {
+    //phones
+    @media only screen and (max-width: 700px) {
+        margin-top: 50vh;
+        padding-left: 5vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        margin-top: 50vh;
+        padding-left: 10vw;
+    }
 }

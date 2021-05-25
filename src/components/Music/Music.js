@@ -31,7 +31,7 @@ class Music extends Component {
                 <div className="musicHeaderContainer">
                     <h1 className="musicHeader">Recently Liked</h1>
                 </div>
-                <div className="songContainer">{fillers}</div>
+                <div className="songsContainer">{fillers}</div>
             </div>
         );
 

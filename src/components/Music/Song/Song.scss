@@ -6,10 +6,12 @@
     background-color: rgb(117, 37, 245);
     width: 80vw;
     height: 8vh;
+    margin-top: 10px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: left;
+    z-index: 4;
 }
 
 .song:hover {
@@ -34,19 +36,13 @@
     height: 100%;
     //phones
     @media only screen and (max-width: 700px) {
-        max-width: 80%;
-    }
-    //laptop
-    @media only screen and (min-width: 700px) {
-        max-width: 80%;
-    }
-}
+        width: 70%;
 
-.songTitle {
-    //phones
-    @media only screen and (max-width: 700px) {
-        padding-top: 4.35vh;
-        padding-bottom: 1vh;
+
+        overflow:overlay;
+        line-height: 8vh;
+        // padding-top: 4.35vh;
+        // padding-bottom: 2vh;
         font-size: 2vh;
         font-family: "Gotham";
         font-weight: bold;
@@ -54,6 +50,39 @@
         white-space: nowrap;
         overflow-x: hidden;
         text-overflow: ellipsis;
+        z-index: 5;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        max-width: 80%;
+
+
+        padding-top: 4.5vh;
+        padding-bottom: 1vh;
+        font-size: 3vh;
+        font-family: "Gotham";
+        font-weight: bold;
+        color: white;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.songTitle {
+    //phones
+    @media only screen and (max-width: 700px) {
+        padding-top: 4.35vh;
+        padding-bottom: 2vh;
+        font-size: 2vh;
+        font-family: "Gotham";
+        font-weight: bold;
+        color: white;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+        z-index: 5;
+        // display: flex;
     }
     //laptop
     @media only screen and (min-width: 700px) {
@@ -70,18 +99,19 @@
 }
 
 .artistContainer {
-    height: 100%;
-    flex: 1;
     //phones
     @media only screen and (max-width: 700px) {
-        padding-top: 4.35vh;
-        font-size: 2vh;
-        font-family: "Gotham";
-        font-weight: normal;
-        color: white;
-        white-space: nowrap;
-        overflow-x: hidden;
-        text-overflow: ellipsis;
+        // padding-top: 4.35vh;
+        // font-size: 2vh;
+        // font-family: "Gotham";
+        // font-weight: normal;
+        // color: white;
+        // white-space: nowrap;
+        // overflow-x: hidden;
+        // text-overflow: ellipsis;
+        // height: 100%;
+        // flex: 1;
+        display: none;
     }
     //laptop
     @media only screen and (min-width: 700px) {
@@ -90,5 +120,10 @@
         font-family: "Gotham";
         font-weight: normal;
         color: white;
+        height: 100%;
+        flex: 1;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
     }
 }
