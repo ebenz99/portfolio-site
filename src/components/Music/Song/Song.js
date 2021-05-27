@@ -18,6 +18,5 @@ function Song(props) {
 }
 
 
-{/* <div className="songTitle"> */}
 
 export default Song;

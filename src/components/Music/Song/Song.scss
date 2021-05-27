@@ -1,17 +1,38 @@
 .songContainer {
     text-decoration: none;
+    //phones
+    @media only screen and (max-width: 700px) {
+        margin-top: 1vh;
+        padding: 0;
+        width: auto;
+        z-index: 4;
+    }
 }
 
 .song {
-    background-color: rgb(117, 37, 245);
-    width: 80vw;
-    height: 8vh;
-    margin-top: 10px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    z-index: 4;
+    //phones
+    @media only screen and (max-width: 700px) {
+        background-color: rgb(117, 37, 245);
+        width: 20vw;
+        height: 20vw;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 4;
+    }
+    //laptop
+    @media only screen and (min-width: 700px) {
+        background-color: rgb(117, 37, 245);
+        width: 80vw;
+        height: 8vh;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        z-index: 4;
+        margin-top: 10px;
+    }
 }
 
 .song:hover {
@@ -51,6 +72,7 @@
         overflow-x: hidden;
         text-overflow: ellipsis;
         z-index: 5;
+        display: none;
     }
     //laptop
     @media only screen and (min-width: 700px) {
